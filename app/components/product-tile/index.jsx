@@ -152,7 +152,7 @@ ProductTile.propTypes = {
         productName: PropTypes.string,
         productId: PropTypes.string,
         hitType: PropTypes.string
-    })
+    }),
     onFavouriteToggle: PropTypes.func,
     dynamicImageProps: PropTypes.object
 }

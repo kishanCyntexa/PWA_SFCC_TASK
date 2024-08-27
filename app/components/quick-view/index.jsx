@@ -206,7 +206,7 @@ const ProductDetail = (props) => {
                             ))
                         }
                     </Fragment>
-                ) : ()};
+                ) : (<Fragment></Fragment>)};
 
                 {/* Product Recommendations */}
                 <Stack spacing={16}>

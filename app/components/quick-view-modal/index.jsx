@@ -25,7 +25,7 @@ import {API_ERROR_MESSAGE} from '@salesforce/retail-react-app/app/constants'
 import Swatch from '@salesforce/retail-react-app/app/components/swatch-group/swatch'
 import SwatchGroup from '@salesforce/retail-react-app/app/components/swatch-group'
 import {getDisplayPrice} from '@salesforce/retail-react-app/app/utils/product-utils'
-const ProductViewHeader = ({name category, productType, shortDescription}) => {
+const ProductViewHeader = ({name, category, productType, shortDescription}) => {
     const isProductASet = productType?.set
 
     return (
@@ -52,7 +52,7 @@ ProductViewHeader.propTypes = {
     productType: PropTypes.object,
     shortDescription: PropTypes.string
 }
-const ButtonWithRegistration = withRegistration(Button)
+//const ButtonWithRegistration = withRegistration(Button)
 const ProductView = forwardRef(
     (
         {
